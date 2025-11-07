@@ -6,7 +6,7 @@ layout: home
 ---
 <head>
     <meta charset="utf-8">
-    <link rel="icon" type="image/x-icon" href="/favicon.ico"/>
+    <link rel="icon" type="image/x-icon" href="{{ site.baseurl }}/favicon.ico"/>
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="robots" content="follow,index">
@@ -22,7 +22,7 @@ layout: home
     <link rel="canonical" href="https://comparecloud.in/">
     <meta property="og:url" content="https://comparecloud.in/">
     <meta property="og:site_name" content="A Public Cloud Comparison | AWS vs Azure vs Google vs IBM vs Oracle vs Alibaba">
-    <meta property="og:image" content="/img/Logo_small.jpg">
+    <meta property="og:image" content="{{ site.baseurl }}/img/Logo_small.jpg">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:site" content="@Ilyas_tweets">
     <meta name="twitter:creator" content="@Ilyas_tweets">
@@ -59,25 +59,25 @@ layout: home
               <img  src="assets/img/logo/aws.png" alt="AWS Icon" class="header-img"/>
             </th>
             <th>
-              <img  src="assets/img/logo/msazure.svg" alt="Microsoft Azure Log"/>
+              <img  src="{{ site.baseurl }}/assets/img/logo/msazure.svg" alt="Microsoft Azure Log"/>
             </th>
             <th>
-              <img  src="assets/img/logo/google.svg" alt="Google Cloud Platform Logo" />
+              <img  src="{{ site.baseurl }}/assets/img/logo/google.svg" alt="Google Cloud Platform Logo" />
             </th>
             <th>
-              <img  src="assets/img/logo/IBM-Cloud-svg-lockup-color8.svg"  alt="IBM Cloud Logo" />
+              <img  src="{{ site.baseurl }}/assets/img/logo/IBM-Cloud-svg-lockup-color8.svg"  alt="IBM Cloud Logo" />
             </th>
             <th>
-              <img  src="assets/img/logo/oracle.png" alt="Oracle Cloud Logo"/>
+              <img  src="{{ site.baseurl }}/assets/img/logo/oracle.png" alt="Oracle Cloud Logo"/>
             </th>
             <th>
-              <img src="assets/img/logo/alibaba.png" alt="Alibaba Cloud Logo"/>
+              <img src="{{ site.baseurl }}/assets/img/logo/alibaba.png" alt="Alibaba Cloud Logo"/>
             </th>
 			<th>
-              <img  src="assets/img/logo/huawei.png" alt="Huawei Cloud"/>
+              <img  src="{{ site.baseurl }}/assets/img/logo/huawei.png" alt="Huawei Cloud"/>
             </th>
 			<th>
-              <img  src="assets/img/logo/tencentCloud.png" alt="Tencent Cloud"/>
+              <img  src="{{ site.baseurl }}/assets/img/logo/tencentCloud.png" alt="Tencent Cloud"/>
             </th>
   </tr>
 	{% for item in site.data.cloudservices.services %}
@@ -88,7 +88,7 @@ layout: home
 			<ul>
 			    {% for entry in item.service %} 
 					{% for record in entry.aws %}
-						<li ><img src="/assets/img/cloudproviders/aws/{{record.icon}}" alt="{{record.name}}" > <a href="{{record.ref}}" target="_blank" alt="{{record.name}}">{{record.name}}</a></li>
+						<li ><img src="{{ site.baseurl }}/assets/img/cloudproviders/aws/{{record.icon}}" alt="{{record.name}}" > <a href="{{record.ref}}" target="_blank" alt="{{record.name}}">{{record.name}}</a></li>
 					{% endfor %}	
 				{% endfor %}	
 			</ul>
@@ -97,7 +97,7 @@ layout: home
 			<ul>
 			    {% for entry in item.service %} 
 					{% for record in entry.azure %}
-						<li><img src="/assets/img/cloudproviders/azure/{{record.icon}}" alt="{{record.name}}"  ><a href="{{record.ref}}" target="_blank" alt="{{record.name}}">{{record.name}}</a></li>
+						<li><img src="{{ site.baseurl }}/assets/img/cloudproviders/azure/{{record.icon}}" alt="{{record.name}}"  ><a href="{{record.ref}}" target="_blank" alt="{{record.name}}">{{record.name}}</a></li>
 					{% endfor %}	
 				{% endfor %}	
 			</ul>
@@ -106,7 +106,7 @@ layout: home
 			<ul>
 			    {% for entry in item.service %} 
 				{% for record in entry.google %}
-					<li><img src="/assets/img/cloudproviders/google/{{record.icon}}" alt="{{record.name}}" ><a href="{{record.ref}}" target="_blank" alt="{{record.name}}">{{record.name}}</a></li>
+					<li><img src="{{ site.baseurl }}/assets/img/cloudproviders/google/{{record.icon}}" alt="{{record.name}}" ><a href="{{record.ref}}" target="_blank" alt="{{record.name}}">{{record.name}}</a></li>
 				{% endfor %}	
 				{% endfor %}	
 			</ul>
@@ -115,7 +115,7 @@ layout: home
 			<ul>
 			    {% for entry in item.service %} 
 				{% for record in entry.ibm %}
-						<li><img src="/assets/img/cloudproviders/ibm/{{record.icon}}" alt="{{record.name}}" ><a href="{{record.ref}}" target="_blank" alt="{{record.name}}">{{record.name}}</a></li>
+						<li><img src="{{ site.baseurl }}/assets/img/cloudproviders/ibm/{{record.icon}}" alt="{{record.name}}" ><a href="{{record.ref}}" target="_blank" alt="{{record.name}}">{{record.name}}</a></li>
 				{% endfor %}	
 				{% endfor %}	
 			</ul>
@@ -124,7 +124,7 @@ layout: home
 			<ul>
 			    {% for entry in item.service %} 
 					{% for record in entry.oracle %}
-							<li ><img src="/assets/img/cloudproviders/oracle/{{record.icon}}" alt="{{record.name}}" ><a href="{{record.ref}}" target="_blank" alt="{{record.name}}">{{record.name}}</a></li>
+							<li ><img src="{{ site.baseurl }}/assets/img/cloudproviders/oracle/{{record.icon}}" alt="{{record.name}}" ><a href="{{record.ref}}" target="_blank" alt="{{record.name}}">{{record.name}}</a></li>
 					{% endfor %}	
 				{% endfor %}	
 			</ul>
@@ -133,7 +133,7 @@ layout: home
 			<ul>
 			    {% for entry in item.service %} 
 					{% for record in entry.alibaba %}
-							<li><img src="/assets/img/cloudproviders/alibaba/{{record.icon}}" alt="{{record.name}}" ><a href="{{record.ref}}" target="_blank" alt="{{record.name}}">{{record.name}}</a></li>
+							<li><img src="{{ site.baseurl }}/assets/img/cloudproviders/alibaba/{{record.icon}}" alt="{{record.name}}" ><a href="{{record.ref}}" target="_blank" alt="{{record.name}}">{{record.name}}</a></li>
 					{% endfor %}	
 				{% endfor %}	
 			</ul>
@@ -143,7 +143,7 @@ layout: home
 			    {% for entry in item.service %} 
 					{% for record in entry.huawei %}
 							<li>
-								<img src="/assets/img/cloudproviders/huawei/{{record.icon}}" alt="{{record.name}}">
+								<img src="{{ site.baseurl }}/assets/img/cloudproviders/huawei/{{record.icon}}" alt="{{record.name}}">
 								<a href="{{record.ref}}" target="_blank" alt="{{record.name}}">{{record.name}}</a>
 							</li>
 					{% endfor %}	
@@ -155,7 +155,7 @@ layout: home
 			    {% for entry in item.service %} 
 				{% for record in entry.tencent %}
 					<li>
-						<img src="/assets/img/cloudproviders/tencent/{{record.icon}}" alt="{{record.name}}">
+						<img src="{{ site.baseurl }}/assets/img/cloudproviders/tencent/{{record.icon}}" alt="{{record.name}}">
 						<a href="{{record.ref}}" target="_blank" alt="{{record.name}}">{{record.name}}</a>
 					</li>
 				{% endfor %}
