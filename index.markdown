@@ -76,6 +76,9 @@ layout: home
 			<th>
               <img  src="assets/img/logo/huawei.png" alt="Huawei Cloud"/>
             </th>
+			<th>
+              <img  src="assets/img/logo/tencentCloud.png" alt="Tencent Cloud"/>
+            </th>
   </tr>
 	{% for item in site.data.cloudservices.services %}
 	<tr>
@@ -145,6 +148,18 @@ layout: home
 							</li>
 					{% endfor %}	
 				{% endfor %}	
+			</ul>
+		</td>
+		<td>
+			<ul>
+			    {% for entry in item.service %} 
+				{% for record in entry.tencent %}
+					<li>
+						<img src="/assets/img/cloudproviders/tencent/{{record.icon}}" alt="{{record.name}}">
+						<a href="{{record.ref}}" target="_blank" alt="{{record.name}}">{{record.name}}</a>
+					</li>
+				{% endfor %}
+			{% endfor %}
 			</ul>
 		</td>
 	</tr>
