@@ -56,7 +56,7 @@ layout: home
 	            <th style="width:7%">Category</th>
             <th style="width:10%">Service</th>
             <th>
-              <img  src="assets/img/logo/aws.png" alt="AWS Icon" class="header-img"/>
+              <img  src="{{ site.baseurl }}/assets/img/logo/aws.png" alt="AWS Icon" class="header-img"/>
             </th>
             <th>
               <img  src="{{ site.baseurl }}/assets/img/logo/msazure.svg" alt="Microsoft Azure Log"/>
