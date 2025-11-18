@@ -39,7 +39,7 @@ services:
       - tencent:
           - name: Tencent Cloud Lighthouse
             ref: https://www.tencentcloud.com/products/lighthouse
-            icon: Lighthouse.png
+            icon: lighthouse.png
   
   - category: Compute
     categoryurl:
