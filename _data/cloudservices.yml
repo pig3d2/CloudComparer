@@ -39,7 +39,7 @@ services:
       - tencent:
           - name: Tencent Cloud Lighthouse
             ref: https://www.tencentcloud.com/products/lighthouse
-            icon: lighthouse.png
+            icon: Lighthouse.png
   
   - category: Compute
     categoryurl:
@@ -577,7 +577,7 @@ services:
       - tencent:
           - name: Cloud Lighthouse
             ref: https://www.tencentcloud.com/products/lighthouse?from_qcintl=topnav
-            icon: lighthouse.png
+            icon: Lighthouse.png
   - category: Compute
     categoryurl:
     subcategory: Auto Scaling
