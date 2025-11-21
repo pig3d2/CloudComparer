@@ -47,25 +47,25 @@ layout: home
               <img  src="{{ site.baseurl }}/assets/img/logo/aws.png" alt="AWS Icon" class="header-img"/>
             </th>
             <th>
-              <img  src="{{ site.baseurl }}/assets/img/logo/msazure.svg" alt="Microsoft Azure Log"/>
+              <img  src="{{ site.baseurl }}/assets/img/logo/msazure.svg" alt="Microsoft Azure Log" class="header-img"/>
             </th>
             <th>
-              <img  src="{{ site.baseurl }}/assets/img/logo/google.svg" alt="Google Cloud Platform Logo" />
+              <img  src="{{ site.baseurl }}/assets/img/logo/google.svg" alt="Google Cloud Platform Logo" class="header-img" />
             </th>
             <th>
-              <img  src="{{ site.baseurl }}/assets/img/logo/IBM-Cloud-svg-lockup-color8.svg"  alt="IBM Cloud Logo" />
+              <img  src="{{ site.baseurl }}/assets/img/logo/IBM-Cloud-svg-lockup-color8.svg"  alt="IBM Cloud Logo" class="header-img" />
             </th>
             <th>
-              <img  src="{{ site.baseurl }}/assets/img/logo/oracle.png" alt="Oracle Cloud Logo"/>
+              <img  src="{{ site.baseurl }}/assets/img/logo/oracle.png" alt="Oracle Cloud Logo" class="header-img"/>
             </th>
             <th>
-              <img src="{{ site.baseurl }}/assets/img/logo/alibaba.png" alt="Alibaba Cloud Logo"/>
+              <img src="{{ site.baseurl }}/assets/img/logo/alibaba.png" alt="Alibaba Cloud Logo" class="header-img"/>
             </th>
-			<th>
-              <img  src="{{ site.baseurl }}/assets/img/logo/huawei.png" alt="Huawei Cloud"/>
+		<th>
+              <img  src="{{ site.baseurl }}/assets/img/logo/huawei.png" alt="Huawei Cloud" class="header-img"/>
             </th>
-			<th>
-              <img  src="{{ site.baseurl }}/assets/img/logo/tencentCloud.png" alt="Tencent Cloud"/>
+		<th>
+              <img  src="{{ site.baseurl }}/assets/img/logo/tencentCloud.png" alt="Tencent Cloud" class="header-img"/>
             </th>
   </tr>
 	{% for item in site.data.cloudservices.services %}

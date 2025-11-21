@@ -35,7 +35,14 @@ main { display: block; /* Default value of `display` of `main` element is 'inlin
 /** Images */
 // img { max-width: 100%; vertical-align: middle; }
 
-.header-img {padding: 2px; text-align: center; }
+.header-img {
+  padding: 2px; 
+  text-align: center; 
+  max-width: 80px; 
+  max-height: 40px; 
+  width: auto; 
+  height: auto;
+}
 
 /** Figures */
 figure > img { display: block; }
@@ -98,7 +105,13 @@ table th, table td { padding: 2px 2px; }
 
 // table th img { padding: 0%; }
 
-table th { background-color: #f0f0f0; border: 1px solid #dedede; border-bottom-color: #c9c9c9; }
+table th { 
+  background-color: #f0f0f0; 
+  border: 1px solid #dedede; 
+  border-bottom-color: #c9c9c9; 
+  vertical-align: middle;
+  text-align: center;
+}
 
 table.comparison td { border: 1px solid #e8e8e8; }
 table.comparison th {
