@@ -34,22 +34,10 @@ layout: home
 <script type="text/javascript" src="https://s7.addthis.com/js/300/addthis_widget.js#pubid=ra-552c144e4f497fe9"></script>
 <!-- Place this tag in your head or just before your close body tag. -->
 <script async defer src="https://buttons.github.io/buttons.js"></script>
-<table class="github">
+<!-- <table class="github">
 <tr align="center" >
 <td><!-- Place this tag where you want the button to render. -->
-<a class="github-button" href="https://github.com/ilyas-it83" data-size="large" data-show-count="true" aria-label="Follow @ilyas-it83 on GitHub">Follow @ilyas-it83</a></td>
-<td><!-- Place this tag where you want the button to render. -->
-<a class="github-button" href="https://github.com/ilyas-it83/CloudComparer" data-size="large"  data-show-count="true" data-icon="octicon-star" aria-label="Star ilyas-it83/CloudComparer on GitHub">Star</a></td>
-<td><!-- Place this tag where you want the button to render. -->
-<a class="github-button" href="https://github.com/ilyas-it83/CloudComparer/fork" data-size="large" data-show-count="true" data-icon="octicon-repo-forked" aria-label="Fork ilyas-it83/CloudComparer on GitHub">Fork</a></td>
-<td><!-- Place this tag where you want the button to render. -->
-<a class="github-button" href="https://github.com/ilyas-it83/CloudComparer/issues" data-size="large" data-show-count="true" data-icon="octicon-issue-opened" aria-label="Issue ilyas-it83/CloudComparer on GitHub">Issue</a></td>
-<td><!-- Place this tag where you want the button to render. -->
-<a class="github-button" href="https://github.com/ilyas-it83/CloudComparer/discussions" data-icon="octicon-comment-discussion" data-size="large" data-show-count="true" aria-label="Discuss ilyas-it83/CloudComparer on GitHub">Discuss</a></td>
-<td><!-- Place this tag where you want the button to render. -->
-<a class="github-button" href="https://github.com/sponsors/ilyas-it83" data-size="large" data-show-count="true" data-icon="octicon-heart" aria-label="Sponsor @ilyas-it83 on GitHub">Sponsor</a></td>
-</tr>
-</table>
+
 
 <table id="comparison">
   <tr align="center" class="header" style="position:sticky;top: 0">
