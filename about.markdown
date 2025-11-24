@@ -15,4 +15,4 @@ A simple comparison chart of all the cloud services offered by the major public 
 * Listing doesn't include third party services offered through cloud market places.
 
 You can find the source code of this comparison:
-[Public Cloud Comparison](https://github.com/ilyas-it83/CloudComparer/)
+[Public Cloud Comparison](https://github.com/pig3d2/CloudComparer/)
