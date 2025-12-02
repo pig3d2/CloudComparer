@@ -2873,7 +2873,7 @@ services:
       - ibm:
           - name: App ID
             ref: https://cloud.ibm.com/catalog/services/app-id#about
-            icon: ibmcloud.png
+            icon: app-id.png
       - oracle:
           - name:
             ref:
@@ -3054,7 +3054,7 @@ services:
       - ibm:
           - name: App ID
             ref: https://cloud.ibm.com/catalog/services/app-id
-            icon: ibmcloud.png
+            icon: app-id.png
       - oracle:
           - name: Oracle Directory Services
             ref: https://www.oracle.com/security/identity-management/directory-services/
