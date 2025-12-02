@@ -30,6 +30,9 @@ url: "https://www.tcloudcompare.com" # the base hostname & protocol for your sit
 # 控制顶部导航菜单显示的页面（空数组表示不显示任何导航链接）
 header_pages: []
 
+# Google Analytics 4 配置
+google_analytics: G-D6CNFR6MTC  # Google Analytics 测量ID
+
 google_font:
   - url: "https://fonts.googleapis.com/css?family=Cousine:400,700,400italic,700italic&subset=latin,vietnamese,latin-ext"
   - url: "https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,700italic,400,300,700&subset=latin,vietnamese,latin-ext"
