@@ -29,7 +29,7 @@ layout: home
     <meta property="article:author" content="https://www.facebook.com/IlyasTheWebizen">
     <meta name="twitter:description" content="云服务比较平台 - 对比各大云服务商的产品和服务">
     <meta name="twitter:title" content="tcloudcomparer | 云服务比较平台">
-    <title>tcloudcomparer | 云服务比较平台</title>
+    <title>tcloudcomparer</title>
 </head>
 <script type="text/javascript" src="https://s7.addthis.com/js/300/addthis_widget.js#pubid=ra-552c144e4f497fe9"></script>
 <!-- Place this tag in your head or just before your close body tag. -->

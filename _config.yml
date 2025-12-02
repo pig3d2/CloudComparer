@@ -20,8 +20,7 @@
 
 title: tcloudcomparer
 #email: ilyas@bornoncloud.com
-#description: >- # this means to ignore newlines until "baseurl:"
-#  A simple cloud comparison chart of all the cloud services offered by the major public cloud vendors globally. 
+description: "" # 空描述，不显示任何描述文字 
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://www.tcloudcompare.com" # the base hostname & protocol for your site, e.g. http://example.com
 #twitter_username: ilyas_tweets
