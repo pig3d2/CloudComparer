@@ -10,26 +10,26 @@ layout: home
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="robots" content="follow,index">
-    <META NAME="Title" CONTENT="A Public Cloud Comparison | AWS vs Azure vs Google vs IBM vs Oracle vs Alibaba">
-    <META NAME="Keywords" CONTENT="AWS vs Azure vs Google vs IBM vs Oracle vs Alibaba, AWS vs Azure, Azure vs Google">
-    <META NAME="Description" CONTENT="A detailed public cloud services comparison & mapping of Amazon AWS, Microsoft Azure, Google Cloud, IBM Cloud, Oracle Cloud.">
-    <META NAME="Author" CONTENT="Ilyas">
-    <META NAME="Subject" CONTENT="A Public Cloud Comparison | AWS vs Azure vs Google vs IBM vs Oracle vs Alibaba">
+    <META NAME="Title" CONTENT="tcloudcomparer | 云服务比较平台">
+    <META NAME="Keywords" CONTENT="云服务比较,AWS,Azure,Google Cloud,腾讯云,阿里云,华为云">
+    <META NAME="Description" CONTENT="云服务比较平台 - 对比各大云服务商的产品和服务">
+    <META NAME="Author" CONTENT="tcloudcomparer">
+    <META NAME="Subject" CONTENT="云服务比较平台">
     <meta property="og:type" content="website">
-    <meta property="og:title" content="A Public Cloud Comparison | AWS vs Azure vs Google vs IBM vs Oracle vs Alibaba">
-    <meta property="og:locale" content="en_US">
-    <meta property="og:description" content="A detailed public cloud services comparison & mapping of Amazon AWS, Microsoft Azure, Google Cloud, IBM Cloud, Oracle Cloud.">
-    <link rel="canonical" href="https://comparecloud.in/">
-    <meta property="og:url" content="https://comparecloud.in/">
-    <meta property="og:site_name" content="A Public Cloud Comparison | AWS vs Azure vs Google vs IBM vs Oracle vs Alibaba">
+    <meta property="og:title" content="tcloudcomparer | 云服务比较平台">
+    <meta property="og:locale" content="zh_CN">
+    <meta property="og:description" content="云服务比较平台 - 对比各大云服务商的产品和服务">
+    <link rel="canonical" href="https://www.tcloudcompare.com/">
+    <meta property="og:url" content="https://www.tcloudcompare.com/">
+    <meta property="og:site_name" content="tcloudcomparer">
     <meta property="og:image" content="/img/Logo_small.jpg">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:site" content="@Ilyas_tweets">
     <meta name="twitter:creator" content="@Ilyas_tweets">
     <meta property="article:author" content="https://www.facebook.com/IlyasTheWebizen">
-    <meta name="twitter:description" content="A detailed public cloud services comparison & mapping of Amazon AWS, Microsoft Azure, Google Cloud, IBM Cloud, Oracle Cloud.">
-    <meta name="twitter:title" content="A public Cloud Compareison : AWS vs Azure vs Google vs IBM vs Oracle vs Alibaba">
-    <title>AWS vs Azure vs Google vs IBM vs Oracle vs Alibaba | A detailed comparison and mapping between various cloud services</title>
+    <meta name="twitter:description" content="云服务比较平台 - 对比各大云服务商的产品和服务">
+    <meta name="twitter:title" content="tcloudcomparer | 云服务比较平台">
+    <title>tcloudcomparer | 云服务比较平台</title>
 </head>
 <script type="text/javascript" src="https://s7.addthis.com/js/300/addthis_widget.js#pubid=ra-552c144e4f497fe9"></script>
 <!-- Place this tag in your head or just before your close body tag. -->
